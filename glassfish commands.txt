@@ -1,0 +1,5 @@
+asadmin create-domain
+
+asadmin create-jms-resource  --host localhost --port 4848 --restype javax.jms.QueueConnectionFactory --description "connection factory for XXX" InfyQCF
+
+asadmin create-jms-resource --host localhost --port 4848 --restype javax.jms.Queue --property Name=PhysicalDestination InfyQ

@@ -1,0 +1,1 @@
+asadmin create-domain

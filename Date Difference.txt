@@ -1,0 +1,8 @@
+Date d1=new Date("2 july,1986");
+		
+		Date d2=new Date();
+		
+		long data=d2.getTime()-d1.getTime();
+		
+		System.out.println((data/31557600000L));
+		
